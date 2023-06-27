@@ -19,7 +19,7 @@ struct ContentView: View {
             //pink is the best!!!
         }
         .padding()
-    }
+    }//hello
 }
 
 struct ContentView_Previews: PreviewProvider {
