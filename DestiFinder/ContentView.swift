@@ -19,7 +19,7 @@ struct ContentView: View {
             }
             .padding()
         }
-    }//this is kellyyy
+    }//new colors
 
 }
 
