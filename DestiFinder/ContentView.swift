@@ -9,18 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "heart.fill")
-                .imageScale(.large)
-                .foregroundColor(.pink)
-            Text("Hello, world!")
-                .foregroundColor(Color.pink)
-            Text("darn you github")
-            //pink is the best!!!
-            //Lillianlane
+        ZStack{
+            Color(red: 0.537, green: 0.819, blue: 0.917)
+                .edgesIgnoringSafeArea(.all)
+            VStack {
+                Text("DestiFinder")
+                    .font(.title)
+                    .foregroundColor(.black)
+            }
+            .padding()
         }
-        .padding()
     }//this is kellyyy
+
 }
 
 struct ContentView_Previews: PreviewProvider {
