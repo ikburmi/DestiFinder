@@ -42,8 +42,7 @@ struct ContentView: View {
             }//end of z stack
             
         }//end of navigation stack
-    }//pls go through
-    // pls pls pls go thru
+    }//new commit
 }
 
 struct ContentView_Previews: PreviewProvider {
