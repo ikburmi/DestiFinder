@@ -40,6 +40,7 @@ struct ContentView: View {
             .padding()
         }
     }//pls go through
+    // pls pls pls go thru
 }
 
 struct ContentView_Previews: PreviewProvider {
