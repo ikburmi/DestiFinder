@@ -39,8 +39,7 @@ struct ContentView: View {
             }
             .padding()
         }
-    }//new colors
-    //new committ
+    }//pls go through
 }
 
 struct ContentView_Previews: PreviewProvider {
