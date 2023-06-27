@@ -15,6 +15,7 @@ struct ContentView: View {
                 .foregroundColor(.pink)
             Text("Hello, world!")
                 .foregroundColor(Color.pink)
+            Text("darn you github")
             //pink is the best!!!
         }
         .padding()
