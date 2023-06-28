@@ -12,7 +12,6 @@ struct ContentView: View {
     private var click = false
     var body: some View {
         NavigationStack{
-            
             ZStack{
                 Color(red: 0.537, green: 0.819, blue: 0.917)
                     .edgesIgnoringSafeArea(.all)
@@ -29,18 +28,23 @@ struct ContentView: View {
                         .multilineTextAlignment(.center)
                     HStack{
                         TextField("Enter location here", text : $location)
+                            .frame(width: 240.0, height: 48.0)
                             .multilineTextAlignment(.center)
-                            .border(Color(red: 0.3843137254901961, green: 0.2901960784313726, blue: 0.20784313725490197), width: 1)
+                            .border(Color(red: 0.3843137254901961, green: 0.2901960784313726, blue: 0.20784313725490197), width: 2)
                             .background(Color.white)
-                        /*Button("Search"){
-                            click = true
-                        }*/
-                        NavigationLink(destination : showDetails())
+                        NavigationLink(destination : categories()){
+                            /*Text("Search")
+                                .fontWeight(.heavy)
+                                .foregroundColor(Color.blue)*/
+                            Image("search")
+                        }
                     }//end of h stack
+                    Text(" ")
+                    Text(" ")
                 }//end of v stack
                 .padding()
             }//end of z stack
-            
+           
         }//end of navigation stack
     }//new commit
 }
