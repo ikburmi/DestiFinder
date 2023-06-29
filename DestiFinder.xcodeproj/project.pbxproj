@@ -11,8 +11,6 @@
 		BD0293A42A4DCB5D00D4934A /* quailRidge.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0293A32A4DCB5D00D4934A /* quailRidge.swift */; };
 		BD0293A62A4DCBB400D4934A /* nashona.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0293A52A4DCBB400D4934A /* nashona.swift */; };
 		BD0293A82A4DCBC400D4934A /* edgeOfUrge.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0293A72A4DCBC400D4934A /* edgeOfUrge.swift */; };
-		BD0293AA2A4DCD4400D4934A /* zenSucculent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0293A92A4DCD4400D4934A /* zenSucculent.swift */; };
-		BD0293AE2A4DCE9C00D4934A /* dfj.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0293AD2A4DCE9C00D4934A /* dfj.swift */; };
 		BD075A122A4C86F2004086E6 /* categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD075A112A4C86F2004086E6 /* categories.swift */; };
 		BD075A142A4C9EE3004086E6 /* restaurants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD075A132A4C9EE3004086E6 /* restaurants.swift */; };
 		BD2CA58C2A4B1BD4002572EE /* DestiFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2CA58B2A4B1BD4002572EE /* DestiFinderApp.swift */; };
@@ -32,8 +30,6 @@
 		BD0293A32A4DCB5D00D4934A /* quailRidge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quailRidge.swift; sourceTree = "<group>"; };
 		BD0293A52A4DCBB400D4934A /* nashona.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nashona.swift; sourceTree = "<group>"; };
 		BD0293A72A4DCBC400D4934A /* edgeOfUrge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = edgeOfUrge.swift; sourceTree = "<group>"; };
-		BD0293A92A4DCD4400D4934A /* zenSucculent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zenSucculent.swift; sourceTree = "<group>"; };
-		BD0293AD2A4DCE9C00D4934A /* dfj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dfj.swift; sourceTree = "<group>"; };
 		BD075A112A4C86F2004086E6 /* categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categories.swift; sourceTree = "<group>"; };
 		BD075A132A4C9EE3004086E6 /* restaurants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = restaurants.swift; sourceTree = "<group>"; };
 		BD2CA5882A4B1BD4002572EE /* DestiFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DestiFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,8 +82,6 @@
 				BDD233082A4CA34D008314FD /* placesToStay.swift */,
 				BDD2330A2A4CA40F008314FD /* thingsToDo.swift */,
 				BDD2330C2A4CA42B008314FD /* shopping.swift */,
-				BD0293AD2A4DCE9C00D4934A /* dfj.swift */,
-				BD0293A92A4DCD4400D4934A /* zenSucculent.swift */,
 				BD0293A52A4DCBB400D4934A /* nashona.swift */,
 				BD0293A72A4DCBC400D4934A /* edgeOfUrge.swift */,
 				BD0293A32A4DCB5D00D4934A /* quailRidge.swift */,
@@ -186,8 +180,6 @@
 				BD0293A22A4DCB0F00D4934A /* cottonCompany.swift in Sources */,
 				BD075A122A4C86F2004086E6 /* categories.swift in Sources */,
 				BD378C732A4DBB1800F77A71 /* raleighMarket.swift in Sources */,
-				BD0293AA2A4DCD4400D4934A /* zenSucculent.swift in Sources */,
-				BD0293AE2A4DCE9C00D4934A /* dfj.swift in Sources */,
 				BD2CA58E2A4B1BD4002572EE /* ContentView.swift in Sources */,
 				BDA82C8E2A4CB3A7000D2F68 /* farmersMarket.swift in Sources */,
 				BDD2330F2A4CA55D008314FD /* planMyStay.swift in Sources */,
