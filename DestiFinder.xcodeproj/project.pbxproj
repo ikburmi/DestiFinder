@@ -19,6 +19,7 @@
 		BD2CA5932A4B1BD5002572EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD2CA5922A4B1BD5002572EE /* Preview Assets.xcassets */; };
 		BD378C732A4DBB1800F77A71 /* raleighMarket.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD378C722A4DBB1800F77A71 /* raleighMarket.swift */; };
 		BDA82C8E2A4CB3A7000D2F68 /* farmersMarket.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA82C8D2A4CB3A7000D2F68 /* farmersMarket.swift */; };
+		BDBE2AB12A4E02CB0031964F /* savedItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBE2AB02A4E02CB0031964F /* savedItems.swift */; };
 		BDD233092A4CA34D008314FD /* placesToStay.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD233082A4CA34D008314FD /* placesToStay.swift */; };
 		BDD2330B2A4CA40F008314FD /* thingsToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD2330A2A4CA40F008314FD /* thingsToDo.swift */; };
 		BDD2330D2A4CA42B008314FD /* shopping.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD2330C2A4CA42B008314FD /* shopping.swift */; };
@@ -39,6 +40,7 @@
 		BD2CA5922A4B1BD5002572EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BD378C722A4DBB1800F77A71 /* raleighMarket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = raleighMarket.swift; sourceTree = "<group>"; };
 		BDA82C8D2A4CB3A7000D2F68 /* farmersMarket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = farmersMarket.swift; sourceTree = "<group>"; };
+		BDBE2AB02A4E02CB0031964F /* savedItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = savedItems.swift; sourceTree = "<group>"; };
 		BDD233082A4CA34D008314FD /* placesToStay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = placesToStay.swift; sourceTree = "<group>"; };
 		BDD2330A2A4CA40F008314FD /* thingsToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thingsToDo.swift; sourceTree = "<group>"; };
 		BDD2330C2A4CA42B008314FD /* shopping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shopping.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				BD378C722A4DBB1800F77A71 /* raleighMarket.swift */,
 				BDA82C8D2A4CB3A7000D2F68 /* farmersMarket.swift */,
 				BDD2330E2A4CA55D008314FD /* planMyStay.swift */,
+				BDBE2AB02A4E02CB0031964F /* savedItems.swift */,
 				BD2CA58F2A4B1BD5002572EE /* Assets.xcassets */,
 				BD2CA5912A4B1BD5002572EE /* Preview Content */,
 			);
@@ -176,6 +179,7 @@
 				BDD233092A4CA34D008314FD /* placesToStay.swift in Sources */,
 				BDD2330D2A4CA42B008314FD /* shopping.swift in Sources */,
 				BD0293A62A4DCBB400D4934A /* nashona.swift in Sources */,
+				BDBE2AB12A4E02CB0031964F /* savedItems.swift in Sources */,
 				BD075A142A4C9EE3004086E6 /* restaurants.swift in Sources */,
 				BD0293A22A4DCB0F00D4934A /* cottonCompany.swift in Sources */,
 				BD075A122A4C86F2004086E6 /* categories.swift in Sources */,
