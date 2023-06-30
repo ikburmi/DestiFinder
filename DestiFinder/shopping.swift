@@ -50,7 +50,7 @@ struct shopping: View {
                                         .background(Color(red: 0.5372549019607843, green: 0.7764705882352941, blue: 0.5058823529411764))
                                         .border(Color(red: 0.3843137254901961, green: 0.2901960784313726, blue: 0.20784313725490197), width: 4)
                                         .cornerRadius(10)
-                                    Image("farmersMarket1")
+                                    Image("farm2")
                                         .resizable(resizingMode: .stretch)
                                         .frame(width: 150.0, height: 150.0)
                                 }
@@ -98,7 +98,7 @@ struct shopping: View {
                                         .background(Color(red: 0.5372549019607843, green: 0.7764705882352941, blue: 0.5058823529411764))
                                         .border(Color(red: 0.3843137254901961, green: 0.2901960784313726, blue: 0.20784313725490197), width: 4)
                                         .cornerRadius(10)
-                                    Image("lafayetteVillage")
+                                    Image("laf1")
                                         .resizable(resizingMode: .stretch)
                                         .frame(width: 150.0, height: 150.0)
                                 }
@@ -115,7 +115,7 @@ struct shopping: View {
                                         .background(Color(red: 0.5372549019607843, green: 0.7764705882352941, blue: 0.5058823529411764))
                                         .border(Color(red: 0.3843137254901961, green: 0.2901960784313726, blue: 0.20784313725490197), width: 4)
                                         .cornerRadius(10)
-                                    Image("cameronVillage")
+                                    Image("cam2")
                                         .resizable(resizingMode: .stretch)
                                         .frame(width: 150.0, height: 150.0)
                                 }
@@ -212,7 +212,7 @@ struct shopping: View {
                                         .background(Color(red: 0.5372549019607843, green: 0.7764705882352941, blue: 0.5058823529411764))
                                         .border(Color(red: 0.3843137254901961, green: 0.2901960784313726, blue: 0.20784313725490197), width: 4)
                                         .cornerRadius(10)
-                                    Image("edge")
+                                    Image("edge1")
                                         .resizable(resizingMode: .stretch)
                                         .frame(width: 150.0, height: 150.0)
                                 }
