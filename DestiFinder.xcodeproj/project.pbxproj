@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B2EF281A2A4E74F6005C1B82 /* lafayette.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EF28192A4E74F6005C1B82 /* lafayette.swift */; };
+		B2EF281C2A4E7538005C1B82 /* cameron.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EF281B2A4E7538005C1B82 /* cameron.swift */; };
 		BD0293A22A4DCB0F00D4934A /* cottonCompany.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0293A12A4DCB0F00D4934A /* cottonCompany.swift */; };
 		BD0293A42A4DCB5D00D4934A /* quailRidge.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0293A32A4DCB5D00D4934A /* quailRidge.swift */; };
 		BD0293A62A4DCBB400D4934A /* nashona.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0293A52A4DCBB400D4934A /* nashona.swift */; };
@@ -27,6 +29,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B2EF28192A4E74F6005C1B82 /* lafayette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lafayette.swift; sourceTree = "<group>"; };
+		B2EF281B2A4E7538005C1B82 /* cameron.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cameron.swift; sourceTree = "<group>"; };
 		BD0293A12A4DCB0F00D4934A /* cottonCompany.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cottonCompany.swift; sourceTree = "<group>"; };
 		BD0293A32A4DCB5D00D4934A /* quailRidge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quailRidge.swift; sourceTree = "<group>"; };
 		BD0293A52A4DCBB400D4934A /* nashona.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nashona.swift; sourceTree = "<group>"; };
@@ -84,6 +88,8 @@
 				BDD233082A4CA34D008314FD /* placesToStay.swift */,
 				BDD2330A2A4CA40F008314FD /* thingsToDo.swift */,
 				BDD2330C2A4CA42B008314FD /* shopping.swift */,
+				B2EF281B2A4E7538005C1B82 /* cameron.swift */,
+				B2EF28192A4E74F6005C1B82 /* lafayette.swift */,
 				BD0293A52A4DCBB400D4934A /* nashona.swift */,
 				BD0293A72A4DCBC400D4934A /* edgeOfUrge.swift */,
 				BD0293A32A4DCB5D00D4934A /* quailRidge.swift */,
@@ -178,6 +184,7 @@
 			files = (
 				BDD233092A4CA34D008314FD /* placesToStay.swift in Sources */,
 				BDD2330D2A4CA42B008314FD /* shopping.swift in Sources */,
+				B2EF281C2A4E7538005C1B82 /* cameron.swift in Sources */,
 				BD0293A62A4DCBB400D4934A /* nashona.swift in Sources */,
 				BDBE2AB12A4E02CB0031964F /* savedItems.swift in Sources */,
 				BD075A142A4C9EE3004086E6 /* restaurants.swift in Sources */,
@@ -185,6 +192,7 @@
 				BD075A122A4C86F2004086E6 /* categories.swift in Sources */,
 				BD378C732A4DBB1800F77A71 /* raleighMarket.swift in Sources */,
 				BD2CA58E2A4B1BD4002572EE /* ContentView.swift in Sources */,
+				B2EF281A2A4E74F6005C1B82 /* lafayette.swift in Sources */,
 				BDA82C8E2A4CB3A7000D2F68 /* farmersMarket.swift in Sources */,
 				BDD2330F2A4CA55D008314FD /* planMyStay.swift in Sources */,
 				BDD2330B2A4CA40F008314FD /* thingsToDo.swift in Sources */,
