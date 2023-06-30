@@ -15,6 +15,9 @@ struct planMyStay: View {
     @State private var shopView = false
     @State private var shoppingGen = " "
     @State private var newShop = "hi"
+    //@Binding var itinerary : String
+    @State var itinerary = [String]()
+    private var count = 0
     //var randomInt = 0
     var body: some View {
         //arrays of places
@@ -34,6 +37,15 @@ struct planMyStay: View {
                         .background(Color(red: 0.9686274509803922, green: 0.9411764705882353, blue: 0.8823529411764706))
                         .cornerRadius(10)
                     Text(" ")
+                    HStack{
+                        Text("Restaurants")
+                        Text("")
+                        Text("")
+                        Text("")
+                        Text("")
+                        Text("")
+                        Text("Places To Stay")
+                    }
                     HStack{
                         Text(" ") // restaurants
                         //.padding(.all, 150.0)
@@ -104,6 +116,17 @@ struct planMyStay: View {
                         //end of places to stay buttons
                     }
                     
+                    HStack{
+                        Text("Things To Do")
+                        Text("")
+                        Text("")
+                        Text("")
+                        Text("")
+                        Text("")
+                        Text("")
+                        Text("")
+                        Text("Shopping")
+                    }
                     
                     HStack{
                         Text(" ") // things to do
@@ -149,6 +172,8 @@ struct planMyStay: View {
                         Text(" ")
                         Button(action: {
                             // Action to perform when the button is tapped
+                            itinerary.append(shoppingGen)
+                            print(itinerary)
                             
                         }) {
                             Image("heart")
@@ -230,10 +255,22 @@ struct planMyStay: View {
                             }
                         }
                         //end of shopping buttons
-                    }//end of vstack
-                }//end of zstack
-            }//end of navigation stack
-        }
+                        
+                    }//end of hstack
+                    NavigationLink(destination : itineraryView()){
+                        Text("Itinerary")
+                            .font(.largeTitle)
+                            .fontWeight(.bold)
+                            .foregroundColor(Color(red: 0.1450980392156863, green: 0.41568627450980394, blue: 0.27058823529411763))
+                            .multilineTextAlignment(.center)
+                            .padding(.all, 15.0)
+                            .border(Color(red: 0.3843137254901961, green: 0.2901960784313726, blue: 0.20784313725490197), width: 4)
+                            .background(Color(red: 0.9686274509803922, green: 0.9411764705882353, blue: 0.8823529411764706))
+                            .cornerRadius(10)
+                    }
+                }//end of vstack
+            }//end of zstack stack
+        }//end of navigation stack
     }
     struct planMyStay_Previews: PreviewProvider {
         static var previews: some View {
