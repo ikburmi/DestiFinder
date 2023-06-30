@@ -15,13 +15,19 @@ struct planMyStay: View {
     @State private var shopView = false
     @State private var shoppingGen = " "
     @State private var newShop = "hi"
+    @State private var resGen = " "
+    @State private var placesgen = " "
+    @State private var thingsGen = " "
     //@Binding var itinerary : String
     @State var itinerary = [String]()
     private var count = 0
     //var randomInt = 0
     var body: some View {
         //arrays of places
-        var stores = ["North Carolina State Farmers Market", "The Raleigh Market", "Lafayette Village", "Cameron Village", "The Cotton Company", "Quail Ridge Books", "Nashona", "Edge of Urge"]
+        let stores = ["North Carolina State Farmers Market", "The Raleigh Market", "Lafayette Village", "Cameron Village", "The Cotton Company", "Quail Ridge Books", "Nashona", "Edge of Urge"]
+        let toStay = ["The StateView Hotel", "Hilton Garden Inn Raleigh", "Embassy Suites by Hilton", "NODE Tiny home hosted by Zach", "Big BUS-tiny living! w/Fire pit!", "Luxurious Modernist Tree House", "Rogers Cottage Quirky Retreat in Heart of Downtown", "Tiny House by the Lake"]
+        let toDo = ["Pullen Park", "North Carolina Museum of Art", "North Carolina Museum of Natural Sciences", "Umstead State Park", "JC Raulston Arboretum", "Neuse River Trail", "Lake Lynn", "WRAL Azalea Garden"]
+        let res = ["Tazza Kitchen Village District", "Irregardless Café", "Morgan Street Food Hall", "Umstead State Park", "JC Raulston Arboretum", "Neuse River Trail", "Lake Lynn", "WRAL Azalea Garden"]
         NavigationView{
             ZStack{
                 Color(red: 0.537, green: 0.819, blue: 0.917)
@@ -47,13 +53,13 @@ struct planMyStay: View {
                         Text("Places To Stay")
                     }
                     HStack{
-                        Text(" ") // restaurants
+                        Text(resGen) // restaurants
                         //.padding(.all, 150.0)
                             .frame(width: 175.0, height: 175.0)
                             .background(Color(red: 0.5372549019607843, green: 0.7764705882352941, blue: 0.5058823529411764))
                             .border(Color(red: 0.3843137254901961, green: 0.2901960784313726, blue: 0.20784313725490197), width: 4)
                             .cornerRadius(10)
-                        Text(" ") // places to stay
+                        Text(placesgen) // places to stay
                         //.padding(.all, 150.0)
                             .frame(width: 175.0, height: 175.0)
                             .background(Color(red: 0.5372549019607843, green: 0.7764705882352941, blue: 0.5058823529411764))
@@ -72,7 +78,8 @@ struct planMyStay: View {
                         }
                         Button(action: {
                             // Action to perform when the button is tapped
-                            
+                            let randomInt = Int.random(in: 0..<8)
+                            resGen = res[randomInt]
                         }) {
                             Image("generate")
                                 .resizable()
@@ -99,6 +106,8 @@ struct planMyStay: View {
                         }
                         Button(action: {
                             // Action to perform when the button is tapped
+                            let randomInt = Int.random(in: 0..<8)
+                            placesgen = toStay[randomInt]
                             
                         }) {
                             Image("generate")
@@ -129,7 +138,7 @@ struct planMyStay: View {
                     }
                     
                     HStack{
-                        Text(" ") // things to do
+                        Text(thingsGen) // things to do
                         //.padding(.all, 150.0)
                             .frame(width: 175.0, height: 175.0)
                             .background(Color(red: 0.5372549019607843, green: 0.7764705882352941, blue: 0.5058823529411764))
@@ -153,7 +162,8 @@ struct planMyStay: View {
                         }
                         Button(action: {
                             // Action to perform when the button is tapped
-                            
+                            let randomInt = Int.random(in: 0..<8)
+                            thingsGen = toDo[randomInt]
                         }) {
                             Image("generate")
                                 .resizable()
