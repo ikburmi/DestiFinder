@@ -24,13 +24,13 @@ struct quailRidge: View {
                .cornerRadius(10)
             ScrollView(.horizontal) {
              HStack(spacing: 0) {
-              Image("")
+              Image("Quail1")
                .resizable()
                .frame(width: UIScreen.main.bounds.width)
-              Image("")
+              Image("Quail2")
                  .resizable()
                .frame(width: UIScreen.main.bounds.width)
-               Image("")
+               Image("Quail3")
                 .resizable()
                 .frame(width: UIScreen.main.bounds.width)
              }//end of hstack

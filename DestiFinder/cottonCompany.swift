@@ -24,13 +24,13 @@ struct cottonCompany: View {
                .cornerRadius(10)
             ScrollView(.horizontal) {
              HStack(spacing: 0) {
-              Image("")
+              Image("Cotton1")
                .resizable()
                .frame(width: UIScreen.main.bounds.width)
-              Image("")
+              Image("Cotton2")
                  .resizable()
                .frame(width: UIScreen.main.bounds.width)
-               Image("")
+               Image("Cotton3")
                 .resizable()
                 .frame(width: UIScreen.main.bounds.width)
              }//end of hstack

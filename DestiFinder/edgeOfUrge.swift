@@ -24,13 +24,13 @@ struct edgeOfUrge: View {
                       .cornerRadius(10)
                 ScrollView(.horizontal) {
                   HStack(spacing: 0) {
-                    Image("")
+                    Image("edge2")
                       .resizable()
                       .frame(width: UIScreen.main.bounds.width)
-                    Image("")
+                    Image("edge3")
                       .resizable()
                       .frame(width: UIScreen.main.bounds.width)
-                    Image("")
+                    Image("edge1")
                       .resizable()
                       .frame(width: UIScreen.main.bounds.width)
                   }//end of hstack

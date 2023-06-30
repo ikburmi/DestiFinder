@@ -24,13 +24,13 @@ struct lafayette: View {
                .cornerRadius(10)
             ScrollView(.horizontal) {
              HStack(spacing: 0) {
-              Image("")
+              Image("laf1")
                .resizable()
                .frame(width: UIScreen.main.bounds.width)
-              Image("")
+              Image("laf2")
                .resizable()
                .frame(width: UIScreen.main.bounds.width)
-               Image("")
+               Image("laf3")
                 .resizable()
                 .frame(width: UIScreen.main.bounds.width)
              }//end of hstack

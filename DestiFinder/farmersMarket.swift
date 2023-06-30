@@ -24,13 +24,13 @@ struct farmersMarket: View {
                .cornerRadius(10)
             ScrollView(.horizontal) {
              HStack(spacing: 0) {
-              Image("")
+              Image("farm1")
                .resizable()
                .frame(width: UIScreen.main.bounds.width)
-              Image("")
+              Image("farm2")
                .resizable()
                .frame(width: UIScreen.main.bounds.width)
-               Image("")
+               Image("farm4")
                 .resizable()
                 .frame(width: UIScreen.main.bounds.width)
              }//end of hstack

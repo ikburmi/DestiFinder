@@ -24,13 +24,13 @@ struct nashona: View {
                .cornerRadius(10)
             ScrollView(.horizontal) {
              HStack(spacing: 0) {
-              Image("")
+              Image("nash1")
                .resizable()
                .frame(width: UIScreen.main.bounds.width)
-              Image("")
+              Image("nashona")
                  .resizable()
                .frame(width: UIScreen.main.bounds.width)
-               Image("")
+               Image("nash3")
                 .resizable()
                 .frame(width: UIScreen.main.bounds.width)
              }//end of hstack

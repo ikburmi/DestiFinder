@@ -24,13 +24,13 @@ struct cameron: View {
                       .cornerRadius(10)
                 ScrollView(.horizontal) {
                   HStack(spacing: 0) {
-                    Image("")
+                    Image("cam1")
                       .resizable()
                       .frame(width: UIScreen.main.bounds.width)
-                    Image("")
+                    Image("cam2")
                       .resizable()
                       .frame(width: UIScreen.main.bounds.width)
-                    Image("")
+                    Image("cam3")
                       .resizable()
                       .frame(width: UIScreen.main.bounds.width)
                   }//end of hstack
